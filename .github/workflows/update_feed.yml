@@ -6,7 +6,7 @@ concurrency:
 
 on:
   schedule:
-    - cron: '0 * * * *'  # Runs every hour
+    - cron: '*/45 * * * *'  # Runs every hour
   workflow_dispatch:
 
 permissions:
